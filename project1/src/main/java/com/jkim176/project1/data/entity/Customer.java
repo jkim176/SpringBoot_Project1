@@ -15,9 +15,9 @@ public class Customer {
 	@Column(name="CUSTOMER_ID")
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long id;
-	@Column(name="FIRST_NAME")
+	@Column(name="CUSTOMER_FIRST_NAME")
 	private String firstName;
-	@Column(name="LAST_NAME")
+	@Column(name="CUSTOMER_LAST_NAME")
 	private String lastName;
 	
 	public long getId() {
